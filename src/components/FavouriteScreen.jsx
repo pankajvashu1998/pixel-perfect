@@ -129,9 +129,9 @@ const FavouritesScreen = () => {
   ];
 
   return (
-    <div className="w-full min-h-screen flex justify-center items-center bg-gray-900 p-4">
+    <div className="w-full min-h-screen flex justify-center items-center">
       {/* Main card */}
-      <div className="relative max-w-lg w-full h-[95vh] bg-black text-white  shadow-lg overflow-hidden">
+      <div className="relative sm:max-w-lg w-full h-screen sm:m-4 bg-black text-white  shadow-lg overflow-hidden">
         {/* 🔹 Fixed Header Section */}
         <div className="absolute top-0 left-0 w-full bg-black z-20">
           {/* Icons Bar */}
